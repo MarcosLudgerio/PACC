@@ -8,46 +8,43 @@ limite = len(listaDificuldade)
 def cabecalho():
     print("="*65)
     print("")
-    print("PACC - Programa de Avaliação do Conhecimento em Computação")
+    print("   PACC - Programa de Avaliação do Conhecimento em Computação")
     print("")
     print("="*65)
 
-#Apenas exibe os níveis do jogo
-# def Dificuldade():
-#     print("Por favor, escolha um nível: ")
-#     time.sleep(0.75)
-#     for i in range(limite):
-#         print(f"[{listaDificuldade[i][0]}] - {listaDificuldade[i][1]}")
-#         time.sleep(0.75)
-#     #Variavel que recebe a resposta do usuário
-#     nivel = input("Informe o seu nível: ")
-
-#     #Enquanto o nível informado não for válido eu pergunto novamente
-#     nivel = validaDificuldade(nivel)
-
-#     #Confirma se a resposta do usuário foi realmente a informada
-#     print("Cheguei aqui!")
-#     print(confirmaDificuldade(nivel))
-#     print("Passei daqui!")
-#     if not (confirmaDificuldade(nivel)):
-#         print("Vamos novamente!")
-#         Dificuldade()
-#         print(variavel)
-#     return
-def Dificuldade(nivel):
+def Dificuldade():
+    #Lista para verificação e validação da resposta
     listaLocal = ['1', '2', '3']
+    
+    #Lista para verificar e validar a confirmação
     lista = ['s', 'n']
+    #A partir daqui começa o script que exibe o cabeçaho com as opções de níveis
+    print("Por favor, escolha um nível: ")
+    time.sleep(0.75)
+    for i in range(limite):
+        print(f"[{listaDificuldade[i][0]}] - {listaDificuldade[i][1]}")
+        time.sleep(0.75)
+    #Variavel que recebe a resposta
+    nivel = input("Informe o seu nível: ")
+    
+    #Verificar se a resposta fornecida é válida, só saíra do loop quando a resposta estiver
     while(nivel not in listaLocal):
         time.sleep(0.3)
         print("Resposta inválida!")
         time.sleep(0.5)
         nivel = input("Por favor, informe um nível válido: ")
+
+    #Nível é convertido para inteiro, já que foi verificado se ele é um número válido
     nivel = int(nivel)
     for i in range(limite):
         print(listaDificuldade[i][0], nivel)
+        #Percorre a lista e retorna a informada
         if(listaDificuldade[i][0] == nivel):
             print("Não da mais!")
+            #Confirma se a resposta informada foi realmente a desejada ou um engano
             confirma = input(f"Você quer realmente o nível: {listaDificuldade[i][1]}? (s/n) ").lower()
+            
+            #Confere se a confirmação foi válida 
             while confirma not in lista:
                 print("Respondir errado!!")
                 confirma = input(f"Você quer realmente o nível: {listaDificuldade[i][1]}? (s/n) ").lower()
@@ -57,41 +54,4 @@ def Dificuldade(nivel):
                 return listaDificuldade[i][1]
             else:
                 nivel = str(nivel)
-                Dificuldade(nivel)
-
-
-
-
-
-
-
-#Função que confere se a dificuldade escolhida é válida
-#Função que confirma a dificuldade escolhida
-# def confirmaDificuldade(nivel):
-#     lista = ['s', 'n']
-#     nivel = int(nivel)
-#     for i in range(limite):
-#         print(listaDificuldade[i][0], nivel)
-#         if(listaDificuldade[i][0] == nivel):
-#             print("Não da mais!")
-#             confirma = input(f"Você quer realmente o nível: {listaDificuldade[i][1]}? (s/n) ").lower()
-#             while confirma not in lista:
-#                 print("Respondir errado!!")
-#                 confirma = input(f"Você quer realmente o nível: {listaDificuldade[i][1]}? (s/n) ").lower()
-#                 print(confirma)
-#         print(confirma)
-#         if(confirma == "s"):
-#             return True
-#         else:
-#             return False
-
-# #Função que confirma a dificuldade do usuário
-# def testeDificuldade(confirmaResposta):
-#     confirmaResposta = str(confirmaResposta).lower()
-#     while(confirmaResposta != 's') or (confirmaResposta != "n"):
-#         confirmaResposta = input("Você quer o nível fácil? (s/n) ")
-#     if(confirmaResposta == "s"):
-#         return True
-#     else:
-#         return False
-        
+                Dificuldade()
