@@ -1,25 +1,4 @@
-O surto de ataques hackers liderados pelo grupo LulzSec, que ocorreu inclusive no Brasil, derrubando sites do governo, foi baseado em que tipo de ataque?
-A) Brute Force - Força Bruta;
-B) DDoS - Negação de serviço;
-C) Trojan - Cavalo de Tróia;
-D) Port Scanning - Escaneamento de Portas;
-B
-
-João precisa conectar à rede de Pedro pela porta 230, porém o Firewall está barrando João. Como Pedro pode arrumar isso?"
-A) Desativar o firewall
-B) Abrir a porta 230
-C) Adicionar uma regra de entrada para a porta 230
-D) Abrir a porta 230 e criar uma regra de entrada
-A
-
-Qual desses tipos de conexões cobrem cidades?
-A) MAN
-B) WAN
-C) LAN
-D) PAN
-A
-
-Qual detses protocolos é mais rápido porém menos confiável?
+(RachaCuca) Qual detses protocolos é mais rápido porém menos confiável?
 A) TCP
 B) UDP
 C) DPU
@@ -27,31 +6,7 @@ D) CPT
 E) UCP
 B
 
-O que significa SMTP?
-A) Sample MAN Transfer Protocol
-B) Simple Mailer Time Protocol
-C) Simple Mail Transfer Protocol
-D) Simple Machine Transport Port
-E) Simple Mial Time Protocol
-C
-
-São tipos de memória utilizadas nos computadores e classificadas como não-voláteis:
-A) FPM, DDR3, EEPROM e EDO.
-B) FPM, Flash, EEPROM e DRAM.
-C) DDR3, EPROM, SRAM e Flash.
-D) ROM, EEPROM, Flash e PROM.
-E) EDO, FPM, Flash e EPROM.
-D
-
-Na arquitetura de von Neumann, a unidade básica de transferência da memória ou para a memória denomina-se:
-A) byte.
-B) endereço.
-C) instrução.
-D) palavra.
-E) dado.
-D
-
-Qual a forma correta de criar uma rota estática ? (Considere como nome do roteador: RT-SP1)
+(RachaCuca) Qual a forma correta de criar uma rota estática ? (Considere como nome do roteador: RT-SP1)
 A) RT-SP1(config)>ip route 192.168.10.1 255.255.255.0 f0/1
 B) RT-SP1#ip route 192.168.10.1 255.255.255.0 f0/1
 C) RT-SP1>ip route 192.168.10.1 255.255.255.0 f0/1
@@ -59,22 +14,14 @@ D) RT-SP1(config)#ip route 192.168.10.1 255.255.255.0 f0/1
 E) RT-SP1(config)#ip route 192.168.10.1 255.255.255.0 f0/1 area 1
 D
 
-Quais são os roteadores elegidos pelo OSPF em uma rede?
+(RachaCuca) Quais são os roteadores elegidos pelo OSPF em uma rede?
 A) BR, IR, ABR, ABS
 B) IR, ABS, ASBR, BR
 C) ABR, BR, IR, ASBR
 D) IR, BR, ABSR, AIR
 C
 
-Qual o resumo de rota para este cenário (192.168.1.0): - São Paulo 1. Cambuci 2000 2. Lapa 1200 3. Vila Mariana 600 4. Santa Cecília 100 5. CPD 50
-A) 192.168.1.0 255.255.192.0
-B) 192.168.1.0 255.255.248.0
-C) 192.168.1.0 255.255.240.0
-D) 192.168.1.0 255.255.224.0
-E) 192.168.1.0 255.255.254.0
-C
-
-Para configurar o HSRP para fazer redundância de Gateway, é certo que
+(RachaCuca) Para configurar o HSRP para fazer redundância de Gateway, é certo que
 A) Não importa o grupo em que estejam, tendo o mesmo IP como gateway padrão, o HSRP reconhece automaticamente.
 B) O comando track faz com que a prioridade do grupo HSRP aumente sempre que uma determinada porta cair.
 C) A menor prioridade do grupo HSRP é a que define o equipamento Root.
@@ -82,18 +29,132 @@ D) Para que o HSRP funcione, todas as configurações devem ser feitas no mesmo 
 E) Para que o HSRP funcine, todas as configurações devem bater mesmo estando em grupos diferentes.
 D
 
-O que é a distancia administrativa?
-A) É o tempo de delay do pacote até chegar no seu destino.
-B) É a latencia que os protocolos de roteamento causam na rede.
-C) É o custo de cada protocolo de roteamento.
-D) É o custo de cada salto do protocolo de roteamento.
-E) É p custo de cada roteamento do salto no protocolo TCP
-C
-
-O que acontece se usarmos o comando "erase startup-config"?
+(RachaCuca) O que acontece se usarmos o comando "erase startup-config"?
 A) Apaga a tabela de roteamento salva no roteador.
 B) Apaga todos os métodos de autenticação e ACLs salvas no roteador.
 C) Apaga toda a memória que está sendo executada no momento pelo roteador.
 D) Apaga toda a memória salva no roteador.
 E) O comando da erro e não acontece nada.
 C
+
+
+(ISS/Teresina 2016) Os notebooks ultrafinos (ultrabooks) utilizam drives do tipo SSD (Solid-State Drive) ao invés de HDs por serem normalmente mais silenciosos, menores, mais resistentes e de acesso mais rápido. Assim como os pen drives, os dispositivos SSD utilizam
+A) memória flash para armazenar dados. Esse tipo de memória não perde seu conteúdo quando a alimentação elétrica é cortada.
+B) memória flash para armazenar dados. Esse tipo de memória perde seu conteúdo quando a alimentação elétrica é cortada.
+C) registradores para armazenar informações. Os registradores são tipos de memória de acesso muito rápido, porém muito caros.
+D) memória cache para armazenar dados. Esse tipo de memória é acessada duas vezes mais rápido do que as memórias RAM convencionais.
+E) chips BIOS para armazenar as informações. Esses chips são baratos e compactos, porém o acesso a eles é mais lento do que o acesso às memórias.
+A
+
+(SEFAZ/PI 2015) Considere a seguinte descrição de componentes de computadores encontrada em um site de comércio eletrônico:
+Intel Core i7-5960X 3.0GHz 20MB LGA 2011 V3 DDR4 2133MHz - BX80648I75960X - DDR4 - 2133MHz refere-se à configuração
+A) do HD.
+B) da Memória RAM.
+C) da memória cache.
+D) do Processador.
+E) do monitor de vídeo. 
+B
+
+(TRT/15ª Região 2015) Os discos rígidos padrão SATA-III, portanto de 3a geração, operam com uma taxa de transferência externa máxima teórica (taxa da interface), em Mbps, de
+A) 600.
+B) 300.
+C) 820.
+D) 1.200.
+E) 150.
+A
+
+(TRT/4ª Região 2015) Os chipsets das placas-mãe de Computadores Pessoais (PCs) realizam a interface com o chip do processador por meio das interfaces Northbridge e Southbridge. A interface Northbridge é utilizada para a comunicação do processador com
+A) a Placa de Rede.
+B) a Memória Principal.
+C) o Teclado.
+D) o Disco Rígido.
+E) a Memória Secundária. 
+B
+
+(TRT/4ª Região 2015) Os processadores atualmente utilizados em Computadores Pessoais (PCs)realizam a execução das instruções em um ciclo de máquina. O recurso tecnológico embutido nesses processadores, para possibilitar isso, é denominado
+A) Hypertrade.
+B) RISC.
+C) Swapping.
+D) CISC.
+E) Pipeline. 
+E
+
+(TRE/SE 2015) Ao se adquirir um computador é importante selecionar componentes adequados para o perfil de utilização. Em um computador, o componente
+A) “DDR3 de 2133 MHz” refere-se à memória RAM.
+B) “SATA 3 de 7200 RPM” refere-se ao processador.
+C) “ASUS A58M-A/BR” refere-se ao HD (disco rígido).
+D) “NVIDIA GeForce GTX 900M” refere-se à memória ROM.
+E) “Core i7- 5960X” refere-se à placa de vídeo. 
+A
+
+(SABESP 2014) São dispositivos que podem ser utilizados para realização de cópia de segurança do usuário:
+A) pen drive, DVD, CD e disco rígido.
+B) pen drive, RAM e CD-R.
+C) disco rígido, DVD-RW, EPROM e RAM.
+D) disc laser, CD-RW, modem e EPROM.
+E) blue-tooth, disco rígido, placa de som e pen drive
+A
+
+(TRT/6ª 2012) A capacidade nominal de armazenamento de uma mídia de DVD-RW, com camada simples e lado simples é de
+A) 4,7GB.
+B) 700MB.
+C) 9,40GB.
+D) 720MB.
+E) 1024TB.
+A
+
+(TJ/RJ 2012) Sobre a tecnologia USB é correto afirmar:
+A) O sistema operacional não pode reconhecer automaticamente o dispositivo USB, pois cada dispositivo demanda um driver especifico.
+B) Cada porta USB pode conectar apenas 1 dispositivo, mesmo que se utilize um hub USB.
+C) Na tecnologia USB, o dispositivo não pode receber energia elétrica por meio do cabo de comunicação, necessitando de fonte de energia própria.
+D) O padrão USB é compatível apenas com o Microsoft Windows.
+E) Dispositivos USB podem ser conectados e utilizados sem que se precise reiniciar o computador. 
+E
+
+(TRE/SP  2012) Durante a operação de um computador, caso ocorra interrupção do fornecimento de energia elétrica e o computador seja desligado, os dados em utilização que serão perdidos estão armazenados
+A) no disco rígido e memória RAM.
+B) em dispositivos removidos com segurança.
+C) no disco rígido.
+D) na memória RAM.
+E) no disco rígido decorrentes de atividades dos programas queestavam em execução. 
+D
+
+(TRE/SP 2012) Para que o computador de uma residência possa se conectar à Internet, utilizando a rede telefônica fixa, é indispensável o uso de um hardware chamado
+A) hub.
+B) modem.
+C) acess point.
+D) adaptador 3G.
+E) switch. 
+D
+
+(RachaCuca) Qual o resumo de rota para este cenário (192.168.1.0): - São Paulo 1. Cambuci 2000 2. Lapa 1200 3. Vila Mariana 600 4. Santa Cecília 100 5. CPD 50
+A) 192.168.1.0 255.255.192.0
+B) 192.168.1.0 255.255.248.0
+C) 192.168.1.0 255.255.240.0
+D) 192.168.1.0 255.255.224.0
+E) 192.168.1.0 255.255.254.0
+C
+
+(Prefeitura de São Paulo 2012) Dispositivos de entrada e saída possibilitam introduzir dados externos ao computador para processamento e apresentar dados processados pelo computador. Alguns dispositivos efetuam ambos papéis, servindo de dispositivo de entrada e saída. Um exemplo destes dispositivos é
+A) a tela sensível ao toque.
+B) o leitor de código de barras.
+C) o mouse ótico.
+D) o scanner.
+E) a webcam.
+A
+
+(Prefeitura de São Paulo 2012) Os dispositivos ou mídias de armazenamento são capazes de armazenar informações para posterior uso e processamento eletrônico. Dentre as mídias, dispositivos e tecnologias utilizadas para o armazenamento de informações NÃO se inclui o
+A) pendrive.
+B) código de barras.
+C) barramento de memória.
+D) RFID.
+E) código QR. 
+
+(TCE/SP 2012) O armazenamento de informações em computadores é feito pela utilização de dispositivos chamados de memória, que as mantêm de forma volátil ou permanente. Entre esses dispositivos, está a memória RAM ou memória
+A) magnética.
+B) secundária.
+C) cache.
+D) principal.
+E) de armazenamento em massa. 
+D
+

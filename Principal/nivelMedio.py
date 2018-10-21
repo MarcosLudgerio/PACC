@@ -1,7 +1,7 @@
 import time, random
 
 #Abre o arquivo
-arquivo = open("Questoes/Facil", "a")
+arquivo = open("Questoes/Medio", "a")
     
 def adicionarQuestão():
     #Solicita o enunciado
@@ -71,7 +71,7 @@ def exibirQuestões():
     contErradas = 0
 
     #Abrindo o arquivo
-    arquivo2 = open("Questoes/Facil", "r")
+    arquivo2 = open("Questoes/Medio", "r")
 
     #Lendo ele como lista e salvando numa várivel 
     lista = arquivo2.readlines()
@@ -91,7 +91,7 @@ def exibirQuestões():
     #Agora separando as questões
 
     #Abrindo o arquivo
-    arquivo2 = open("Questoes/Facil", "r")
+    arquivo2 = open("Questoes/Medio", "r")
 
     #Váriavel de controle
     i = 0
@@ -136,7 +136,7 @@ def exibirQuestões():
 
         time.sleep(1)
         #A resposta é informada e válidada. Se está entre as alternativas possiveis
-        resposta = input("Informe a sua resposta ").upper()
+        resposta = input("Informe a sua resposta: ").upper()
         confereResposta = validaResposta(resposta)
         
         #Confere se a resposta fornecida está certa
@@ -160,7 +160,7 @@ def exibirQuestões():
 
 def validaResposta(resposta):
     #Valido recebe as respostas possíveis
-    valido = "ABCD"
+    valido = "ABCDE"
     
     #Enquanto a resposta não for válida deverá ser solicitada novamente
     while(resposta not in valido) or (resposta == ""):
@@ -180,7 +180,7 @@ def alteraOrdem(arquivoCompleto):
         random.shuffle(arquivoCompleto)
        
         #Depois de alterar a ordem o arquivo será gravado de novo com essa ordem nova
-        arquivoRetorno = open("Questoes/Facil", "w")
+        arquivoRetorno = open("Questoes/Medio", "w")
         for i in range(len(arquivoCompleto)):
             for j in range(len(arquivoCompleto[i])):
                 arquivoRetorno.write(arquivoCompleto[i][j])
@@ -221,3 +221,4 @@ def resultado(certas, erradas):
         time.sleep(2)
         print("Performace muito ruim, estude mais!")
         time.sleep(2)
+exibirQuestões()

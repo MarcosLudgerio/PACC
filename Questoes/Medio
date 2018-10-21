@@ -1,25 +1,95 @@
-As siglas "QWERTY" ou “AZERTY” e "DVORAK" são referente a que?
+(RachaCuca) Na arquitetura de von Neumann, a unidade básica 
+de transferência da memória ou para a memória denomina-se:
+A) byte.
+B) endereço.
+C) instrução.
+D) palavra.
+E) dado.
+D
+
+(RachaCuca) As siglas "QWERTY" ou “AZERTY” e "DVORAK" são referente a que?
 A) Marcas de Memória RAM;
 B) Cheats do GTA;
 C) Modelos Padrão de Teclado;
 D) Senhas Padrão do Linux;
 C
 
-Pela fórmula 2 elevado na N é possível descobrir quantos números pode se ter em binário pelo número de digitos(Bits). Com 8 Bits, até que número posso contar em binário?
+(QConcursos) O software que permite realizar comunicação grátis pela
+internet por voz, mensagens instantâneas e vídeo) é o
+A) ADSL
+B) SKYPE
+C) TELNET
+D) ISP
+E) INSS
+B
+
+(RachaCuca) Qual desses tipos de conexões cobrem cidades?
+A) MAN
+B) WAN
+C) LAN
+D) PAN
+A
+
+(RachaCuca) O surto de ataques hackers liderados pelo grupo LulzSec, 
+que ocorreu inclusive no Brasil, derrubando sites do governo, 
+foi baseado em que tipo de ataque?
+A) Brute Force - Força Bruta;
+B) DDoS - Negação de serviço;
+C) Trojan - Cavalo de Tróia;
+D) Port Scanning - Escaneamento de Portas;
+B
+
+(RachaCuca) O que é a distancia administrativa?
+A) É o tempo de delay do pacote até chegar no seu destino.
+B) É a latencia que os protocolos de roteamento causam na rede.
+C) É o custo de cada protocolo de roteamento.
+D) É o custo de cada salto do protocolo de roteamento.
+E) É p custo de cada roteamento do salto no protocolo TCP
+C
+
+(RachaCuca) Quanto às memórias, podemos afirmar que existe
+uma memória somente de leitura onde seus dados não são perdidos 
+quando desligada. Estamos falando da memória:
+A) DDR
+B) DDR2
+C) ROM
+D) DDR3
+E) RAM
+E
+
+(QConcursos) No sistema operacional MS Windows 7 em português, a pasta
+que contém toda estrutura do sistema operacional é a pasta
+A) /Acessórios 
+B) /Documentos
+C) /Usuários
+D) /Windows
+D
+
+(RachaCuca) Pela fórmula 2 elevado na N é possível descobrir 
+quantos números pode se ter em binário pelo número de digitos(Bits).
+Com 8 Bits, até que número posso contar em binário?
 A) 256
 B) 512
 C) 1023
 D) 255
 D
 
-O que é P2P?
+(RachaCuca) O que significa FTP:
+A) File Tranporte Protocol
+B) Feli Transporte Protocol
+C) File Tranposrt Protocol
+D) File Transfer Protocolo
+E) Transfer File protocolo
+C
+
+(RachaCuca) O que é P2P?
 A) Peer-to-Peer
 B) PHP
 C) Powerpoint
 D) Conexão sem fio
 A
 
-Que nome pode ser dado aos servidores?
+(RachaCuca) Que nome pode ser dado aos servidores?
 A) Data-Panels
 B) File-Panel
 C) File-System
@@ -27,7 +97,54 @@ D) World-Centers
 E) Data-Centers
 E
 
-O que significa HTTP:
+(QConcursos) O tipo de monitor utilizado nos notebooks e que se
+caracteriza pela aplicação de transistores em cada pixel, permitindo
+que cada um receba tensões diferentes e utilize altas resoluções, é o:
+A) TFT
+B) CRT
+C) WMA
+D) THD
+E) PQP
+B
+
+(RachaCuca) São tipos de memória utilizadas nos computadores e classificadas 
+como não-voláteis:
+A) FPM, DDR3, EEPROM e EDO.
+B) FPM, Flash, EEPROM e DRAM.
+C) DDR3, EPROM, SRAM e Flash.
+D) ROM, EEPROM, Flash e PROM.
+E) EDO, FPM, Flash e EPROM.
+D
+(RachaCuca) O que significa SMTP?
+A) Sample MAN Transfer Protocol
+B) Simple Mailer Time Protocol
+C) Simple Mail Transfer Protocol
+D) Simple Machine Transport Port
+E) Simple Mial Time Protocol
+C
+
+(QConcursos) Assinale a alternativa correta relativa ao Windows Defender
+presente no Sistema Operacional Windows 10.
+A) O Windows Defender somente verifica a presença de malwares
+quando a proteção em tempo real está ativada.
+B) O Windows Defender é um aplicativo para definição das regras
+de firewall de conexões de rede.
+C) As definições de spyware aplicadas ao Windows Defender são
+atualizadas apenas de forma manual.
+D) O Windows Defender verifica as senhas de usuários, emitindo
+avisos relativos a senhas fracas.
+E) O Windows Defender é desativado se for instalado um aplicativo antivírus.
+E
+
+(QConcursos) Os protocolos para envio e recebimento de e-mail
+na internet são, respectivamente:
+A) SMTP e POP.
+B) SNMP e POP.
+C) POP e SMTP.
+D) POP e SNMP.
+A
+
+(RachaCuca) O que significa HTTP:
 A) Hyper Text Transfer Protocol
 B) Hyper Type Texto Protocol
 C) Hyper Text Type Protocolo
@@ -35,18 +152,20 @@ D) Hyper Text Type Protocolo
 E) Hiper Type Text Protocol
 A
 
-O que significa FTP:
-A) File Tranporte Protocol
-B) Feli Transporte Protocol
-C) File Tranposrt Protocol
-D) File Transfer Protocol0
-E) Transfer File Protocol0
-D
+(RachaCuca) João precisa conectar à rede de Pedro pela porta 230, 
+porém o Firewall está barrando João. Como Pedro pode arrumar isso?"
+A) Desativar o firewall
+B) Abrir a porta 230
+C) Adicionar uma regra de entrada para a porta 230
+D) Abrir a porta 230 e criar uma regra de entrada
+A
 
-Quanto às memórias, podemos afirmar que existe uma memória somente de leitura onde seus dados não são perdidos quando desligada. Estamos falando da memória:
-A) DDR
-B) DDR2
-C) ROM
-D) DDR3
-E) RAM
-E
+(NovaConcursos) Na fonte do gabinete, os cabos de energia são
+diferenciados pela cor onde o fio neutro apresenta a cor:
+A) Branco
+B) Preto
+C) Amarelo
+D) Azul
+E) Vermelho
+B
+
