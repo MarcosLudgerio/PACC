@@ -40,32 +40,19 @@ def Dificuldade():
     #Nível é convertido para inteiro, já que foi verificado se ele é um número válido
     nivel = int(nivel)
     for i in range(limite):
-        print(listaDificuldade[i][0], nivel)
         #Percorre a lista e retorna a informada
         if(listaDificuldade[i][0] == nivel):
-            print("Não da mais!")
             #Confirma se a resposta informada foi realmente a desejada ou um engano
             confirma = input(f"Você quer realmente o nível: {listaDificuldade[i][1]}? (s/n) ").lower()
             
             #Confere se a confirmação foi válida 
             while confirma not in lista:
-                print("Respondir errado!!")
+                print("Resposta inválida!")
                 confirma = input(f"Você quer realmente o nível: {listaDificuldade[i][1]}? (s/n) ").lower()
-                print(confirma)
             if(confirma == "s"):
-                print("Ótimo!")
+                print("Ótimo, vamos começar a nossa brincadeira!")
                 return listaDificuldade[i][1]
             else:
                 nivel = str(nivel)
                 Dificuldade()
-
-
-
-
-
-
-
-
-
-
-
+            

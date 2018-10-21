@@ -4,6 +4,9 @@ import time, random
 arquivo = open("Questoes/Medio", "a")
     
 def adicionarQuestão():
+
+    print("Adicionando questão nivel médio")
+    print("Se possível coloque a fonte!")
     #Solicita o enunciado
     print("Informe enunciado: ")
     enunciado = input("")
@@ -14,14 +17,15 @@ def adicionarQuestão():
     b = input("B) ")
     c = input("C) ")
     d = input("D) ")
+    e = input("E) ")
     resposta = input("Alternativa correta: ").upper() 
     
     #Confere se a resposta é válida ou não
-    while resposta not in "ABCD" or resposta == "":
+    while resposta not in "ABCDE" or resposta == "":
         print("Informe uma resposta válida!")
         resposta = input("Alternativa correta: ").upper()
     
-    confereAlternativas = [a, b, c, d]
+    confereAlternativas = [a, b, c, d, e]
     #Confere se já tem alternativa igual a A   
     while (a in confereAlternativas[1:]):
         print("Já existe uma alternativa igual a essa!")
@@ -44,21 +48,29 @@ def adicionarQuestão():
         confereAlternativas[2] = c
 
     #Confere se já tem alternativa igual a D   
-    while (d in confereAlternativas[:3]):
+    while (d in confereAlternativas[:3]) or (d in confereAlternativas[4:]):
         print("Já existe uma alternativa igual a essa!")
         print("Por favor, altere ela!")
         d = input("D) ")
         confereAlternativas[3] = d
+    
+    #Confere se já tem alternativa igual a E   
+    while (e in confereAlternativas[:4]):
+        print("Já existe uma alternativa igual a essa!")
+        print("Por favor, altere ela!")
+        e = input("E) ")
+        confereAlternativas[4] = e
 
     #Escreve no arquivo
     arquivo.write("\n")
-    arquivo.write("\n" + enunciado)
+    arquivo.write("\n")
+    arquivo.write(enunciado)
     arquivo.write("\nA) " + a)
     arquivo.write("\nB) " + b)
     arquivo.write("\nC) " + c)
     arquivo.write("\nD) " + d)
+    arquivo.write("\nE) " + e)
     arquivo.write("\n" + resposta.upper())
-
 
 def exibirQuestões():  
     #Váriavel que recebem o arquivo em forma de listas
@@ -221,4 +233,3 @@ def resultado(certas, erradas):
         time.sleep(2)
         print("Performace muito ruim, estude mais!")
         time.sleep(2)
-exibirQuestões()

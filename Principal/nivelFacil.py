@@ -4,6 +4,8 @@ import time, random
 arquivo = open("Questoes/Facil", "a")
     
 def adicionarQuestão():
+    print("Adicionando questão nivel fácil")
+    print("Se possível coloque a fonte!")
     #Solicita o enunciado
     print("Informe enunciado: ")
     enunciado = input("")
@@ -52,7 +54,8 @@ def adicionarQuestão():
 
     #Escreve no arquivo
     arquivo.write("\n")
-    arquivo.write("\n" + enunciado)
+    arquivo.write("\n")
+    arquivo.write(enunciado)
     arquivo.write("\nA) " + a)
     arquivo.write("\nB) " + b)
     arquivo.write("\nC) " + c)
@@ -221,3 +224,11 @@ def resultado(certas, erradas):
         time.sleep(2)
         print("Performace muito ruim, estude mais!")
         time.sleep(2)
+def exibirArquivo():
+    arquivoCompleto = []
+    #Abrindo o arquivo
+    arquivo2 = open("Questoes/Facil", "r")
+    arquivo2.readlines()
+    print(arquivo2)
+    arquivo2.close()
+exibirArquivo()
