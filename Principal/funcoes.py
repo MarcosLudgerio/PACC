@@ -13,6 +13,9 @@ def cabecalho():
     print("="*65)
 
 def Dificuldade():
+
+
+
     #Lista para verificação e validação da resposta
     listaLocal = ['1', '2', '3']
     
@@ -55,3 +58,14 @@ def Dificuldade():
             else:
                 nivel = str(nivel)
                 Dificuldade()
+
+
+
+
+
+
+
+
+
+
+

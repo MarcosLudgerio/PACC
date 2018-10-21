@@ -9,43 +9,6 @@ import funcoes
 #Função que exibe as opções de níveis
 #funcoes.Dificuldade()
 
-arquivoConsulta = open("Questoes/teste", "r")
-lista = []
-for i in range(6):
-    teste = arquivoConsulta.readline()
-    print(teste, end='')
-arquivoConsulta.close()
-
-
-arquivoAlterar = open("Questoes/teste", "a")
-print("Informe enunciado: ")
-enunciado = input("")
-print("Informe as alternativas: ")
-a = input("A) ")
-b = input("B) ")
-c = input("C) ")
-d = input("D) ")
-resposta = input("Alternativa correta ")
-separador = "\n"
-enunciado = "\n" + enunciado
-a = "\nA) " + a
-b = "\nB) " + b
-c = "\nC) " + c
-d = "\nD) " + d
-resposta = "\n" + resposta.upper()
-
-arquivoAlterar.write(separador)
-arquivoAlterar.write(enunciado)
-arquivoAlterar.write(a)
-arquivoAlterar.write(b)
-arquivoAlterar.write(c)
-arquivoAlterar.write(d)
-arquivoAlterar.write(resposta)
-arquivoAlterar.close()
-
-
-
-
 # Este é apenas um arquivo teste
 
 # vamos tenter ler essas linhas 

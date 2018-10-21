@@ -1,0 +1,99 @@
+O surto de ataques hackers liderados pelo grupo LulzSec, que ocorreu inclusive no Brasil, derrubando sites do governo, foi baseado em que tipo de ataque?
+A) Brute Force - Força Bruta;
+B) DDoS - Negação de serviço;
+C) Trojan - Cavalo de Tróia;
+D) Port Scanning - Escaneamento de Portas;
+B
+
+João precisa conectar à rede de Pedro pela porta 230, porém o Firewall está barrando João. Como Pedro pode arrumar isso?"
+A) Desativar o firewall
+B) Abrir a porta 230
+C) Adicionar uma regra de entrada para a porta 230
+D) Abrir a porta 230 e criar uma regra de entrada
+A
+
+Qual desses tipos de conexões cobrem cidades?
+A) MAN
+B) WAN
+C) LAN
+D) PAN
+A
+
+Qual detses protocolos é mais rápido porém menos confiável?
+A) TCP
+B) UDP
+C) DPU
+D) CPT
+E) UCP
+B
+
+O que significa SMTP?
+A) Sample MAN Transfer Protocol
+B) Simple Mailer Time Protocol
+C) Simple Mail Transfer Protocol
+D) Simple Machine Transport Port
+E) Simple Mial Time Protocol
+C
+
+São tipos de memória utilizadas nos computadores e classificadas como não-voláteis:
+A) FPM, DDR3, EEPROM e EDO.
+B) FPM, Flash, EEPROM e DRAM.
+C) DDR3, EPROM, SRAM e Flash.
+D) ROM, EEPROM, Flash e PROM.
+E) EDO, FPM, Flash e EPROM.
+D
+
+Na arquitetura de von Neumann, a unidade básica de transferência da memória ou para a memória denomina-se:
+A) byte.
+B) endereço.
+C) instrução.
+D) palavra.
+E) dado.
+D
+
+Qual a forma correta de criar uma rota estática ? (Considere como nome do roteador: RT-SP1)
+A) RT-SP1(config)>ip route 192.168.10.1 255.255.255.0 f0/1
+B) RT-SP1#ip route 192.168.10.1 255.255.255.0 f0/1
+C) RT-SP1>ip route 192.168.10.1 255.255.255.0 f0/1
+D) RT-SP1(config)#ip route 192.168.10.1 255.255.255.0 f0/1
+E) RT-SP1(config)#ip route 192.168.10.1 255.255.255.0 f0/1 area 1
+D
+
+Quais são os roteadores elegidos pelo OSPF em uma rede?
+A) BR, IR, ABR, ABS
+B) IR, ABS, ASBR, BR
+C) ABR, BR, IR, ASBR
+D) IR, BR, ABSR, AIR
+C
+
+Qual o resumo de rota para este cenário (192.168.1.0): - São Paulo 1. Cambuci 2000 2. Lapa 1200 3. Vila Mariana 600 4. Santa Cecília 100 5. CPD 50
+A) 192.168.1.0 255.255.192.0
+B) 192.168.1.0 255.255.248.0
+C) 192.168.1.0 255.255.240.0
+D) 192.168.1.0 255.255.224.0
+E) 192.168.1.0 255.255.254.0
+C
+
+Para configurar o HSRP para fazer redundância de Gateway, é certo que
+A) Não importa o grupo em que estejam, tendo o mesmo IP como gateway padrão, o HSRP reconhece automaticamente.
+B) O comando track faz com que a prioridade do grupo HSRP aumente sempre que uma determinada porta cair.
+C) A menor prioridade do grupo HSRP é a que define o equipamento Root.
+D) Para que o HSRP funcione, todas as configurações devem ser feitas no mesmo grupo.
+E) Para que o HSRP funcine, todas as configurações devem bater mesmo estando em grupos diferentes.
+D
+
+O que é a distancia administrativa?
+A) É o tempo de delay do pacote até chegar no seu destino.
+B) É a latencia que os protocolos de roteamento causam na rede.
+C) É o custo de cada protocolo de roteamento.
+D) É o custo de cada salto do protocolo de roteamento.
+E) É p custo de cada roteamento do salto no protocolo TCP
+C
+
+O que acontece se usarmos o comando "erase startup-config"?
+A) Apaga a tabela de roteamento salva no roteador.
+B) Apaga todos os métodos de autenticação e ACLs salvas no roteador.
+C) Apaga toda a memória que está sendo executada no momento pelo roteador.
+D) Apaga toda a memória salva no roteador.
+E) O comando da erro e não acontece nada.
+C
