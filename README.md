@@ -1,2 +1,2 @@
 # PACC
-Programa de Avaliação de Conhecimentos em Computação
+Programa Avaliativo  de Conhecimento em Computação
