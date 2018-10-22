@@ -1,54 +1,63 @@
-import time, random
+import time, random, TOM
 
 #Abre o arquivo
 arquivo = open("Questoes/Facil", "a")
     
 def adicionarQuestão():
-    print("Adicionando questão nivel fácil")
-    print("Se possível coloque a fonte!")
+    print("-"*20, " ADICIONAR", "-"*20)
+    time.sleep(1)
+    print("Lembre-se da fonte de onde a quesão foi tirada!")
+    time.sleep(1)
     #Solicita o enunciado
     print("Informe enunciado: ")
     enunciado = input("")
 
     #Solicita as alternativas e resposta correta
+    time.sleep(1)
     print("Informe as alternativas: ")
     a = input("A) ")
     b = input("B) ")
     c = input("C) ")
     d = input("D) ")
     resposta = input("Alternativa correta: ").upper() 
-    
+    time.sleep(1)
     #Confere se a resposta é válida ou não
     while resposta not in "ABCD" or resposta == "":
-        print("Informe uma resposta válida!")
+        time.sleep(1)
+        TOM.respostaInvalida()
+        time.sleep(1)
         resposta = input("Alternativa correta: ").upper()
     
     confereAlternativas = [a, b, c, d]
     #Confere se já tem alternativa igual a A   
     while (a in confereAlternativas[1:]):
-        print("Já existe uma alternativa igual a essa!")
-        print("Por favor, altere ela!")
+        time.sleep(1)
+        TOM.mudaAlternativa()
+        time.sleep(1)
         a = input("A) ")
         confereAlternativas[0] = a
 
     #Confere se já tem alternativa igual a B   
     while (b in confereAlternativas[:1]) or (b in confereAlternativas[2:]):
-        print("Já existe uma alternativa igual a essa!")
-        print("Por favor, altere ela!")
+        time.sleep(1)
+        TOM.mudaAlternativa()
+        time.sleep(1)
         b = input("B) ")
         confereAlternativas[1] = b
     
     #Confere se já tem alternativa igual a C   
     while (c in confereAlternativas[:2]) or (c in confereAlternativas[3:]):
-        print("Já existe uma alternativa igual a essa!")
-        print("Por favor, altere ela!")
+        time.sleep(1)
+        TOM.mudaAlternativa()
+        time.sleep(1)
         c = input("C) ")
         confereAlternativas[2] = c
 
     #Confere se já tem alternativa igual a D   
     while (d in confereAlternativas[:3]):
-        print("Já existe uma alternativa igual a essa!")
-        print("Por favor, altere ela!")
+        time.sleep(1)
+        TOM.mudaAlternativa()
+        time.sleep(1)
         d = input("D) ")
         confereAlternativas[3] = d
 
@@ -145,13 +154,13 @@ def exibirQuestões():
         #Confere se a resposta fornecida está certa
         if(repostaCorreta(respostaCerta, confereResposta)):
             time.sleep(3)
-            print("Meus parabéns, você acertou!")
+            TOM.frasesDeAcertos()
             time.sleep(2)
             #Caso a resposta estivejA correta, conta para no final da um feedback
             contCertas += 1
         else:
             time.sleep(3)
-            print("Que pena resposta errada!")
+            TOM.frasesDeErros()
             time.sleep(3)
             #Caso a resposta estiver errada
             contErradas += 1
@@ -167,7 +176,7 @@ def validaResposta(resposta):
     
     #Enquanto a resposta não for válida deverá ser solicitada novamente
     while(resposta not in valido) or (resposta == ""):
-        print("Resposta inválida!")
+        TOM.respostaInvalida()
         resposta = input("Digite novamente: ").upper()
     return resposta
 
@@ -206,29 +215,17 @@ def resultado(certas, erradas):
     time.sleep(2)
     if(percentualCertas == 1):
         time.sleep(2)
-        print("Meus parabéns. Performace Excelente!")
-
+        TOM.rendimentoExcelente()
+        time.sleep(2)
     elif(percentualCertas >= 0.75):
         time.sleep(2)
-        print("Performace muito boa!")
+        TOM.rendimentobom()
         time.sleep(2)
     elif(percentualCertas >= 0.5):
         time.sleep(2)
-        print("Performace razoável")
-        time.sleep(2)    
-    elif(percentualCertas >= 0.5):
-        time.sleep(2)
-        print("Performace ruim")
+        TOM.rendimentoMedio()
         time.sleep(2)    
     else:
         time.sleep(2)
-        print("Performace muito ruim, estude mais!")
+        TOM.rendimentoBaixo()
         time.sleep(2)
-def exibirArquivo():
-    arquivoCompleto = []
-    #Abrindo o arquivo
-    arquivo2 = open("Questoes/Facil", "r")
-    arquivo2.readlines()
-    print(arquivo2)
-    arquivo2.close()
-exibirArquivo()

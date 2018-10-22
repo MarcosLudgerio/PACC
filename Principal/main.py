@@ -1,18 +1,19 @@
 #PACC - Programa de Avaliação do Conhecimento em Computação 
-import funcoes, nivelFacil, nivelMedio, nivelDificil
+import funcoes, TOM, time
 
-#Função que exibe o cabeçalho
-#funcoes.cabecalho()
+funcoes.cabecalho()
 
-#nome = "Marcos"
+TOM.boasVindas()
+time.sleep(2)
+TOM.depoisDasBoasVindas()
+time.sleep(2)
+TOM.apresentacao()
+time.sleep(2)
+nome = input("Me diga o seu nome: ")
+time.sleep(2)
+TOM.iniciarJogo(nome)
+time.sleep(2)
+TOM.jogadorouadmin(nome)
 
-#Função que exibe as opções de níveis
-dificuldade = funcoes.Dificuldade().lower()
+funcoes.menu(nome)
 
-print("dificuldade", dificuldade)
-if(dificuldade == "facil"):
-    nivelFacil.exibirQuestões()
-elif(dificuldade == "medio"):
-    nivelMedio.exibirQuestões()
-else:
-    nivelDificil.exibirQuestões()
