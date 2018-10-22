@@ -28,8 +28,8 @@ def jogadorouadmin(nome):
     print(retorno)
 
 
-def notificandoAdministrador(nome):
-    notificando = [', com grandes poderes vêm grandes resposábilidades. Muito cuidado!', ', a partir daqui é importante você ter certeza do que está fazendo', ', nossa, que chic! Você realmente sabe o que está fazendo, né?!', ', uau! É importante que você saiba dos problemas que podem ser ocasionados com isso!', ', muito cuidado!']
+def notificandoAdministrador():
+    notificando = [', Com grandes poderes vêm grandes resposábilidades. Muito cuidado!', ', A partir daqui é importante você ter certeza do que está fazendo', ', Nossa, que chic! Você realmente sabe o que está fazendo, né?!', ', Uau! É importante que você saiba dos problemas que podem ser ocasionados com isso!', ', Muito cuidado!']
     retorno = random.choice(notificando)
     retorno = nome + retorno
     print(retorno)
@@ -56,28 +56,24 @@ def nivelDificil():
     retorno = random.choice(fraseDificil)
     print(retorno)
 
-def rendimentoBaixo(nome):
-    baixo = [', como assim?! Não acredito! Achei se daria melhor!', ', nossa! Eu entendo, quem colocou essas questões tinha minhoca na cabeça! (espero que o meu desinvolvedor não veja isso)', ', aah! É uma pena! Mas não desanime, você pode estudar mais e tentar novamente, esperarei ansioso por você!', ', caramba! Deve ter acontecido algo. Apostei todas minhas fichas em você!', ', me desculpa! Deveria ter feito perguntas mais fáceis! ', ', calma! se é possível você conversar com uma maquina com sua voz mental, então é possível melhorar o rendimento!', ', não desista! Tente novamente, irá se sair melhor na próxima!', ', a culpa não foi sua! A culpa é de quem selecionou as questões. Ele é doido!', ', uau! esperaria mais de você. Se fizer lhe sentir melhor, eu posso hackear o meu desinvolvedor! (espero que ele não veja isso)']
+def rendimentoBaixo():
+    baixo = ['como assim?! Não acredito! Achei se daria melhor!', 'nossa! Eu entendo, quem colocou essas questões tinha minhoca na cabeça! (espero que o meu desinvolvedor não veja isso)', 'aah! É uma pena! Mas não desanime, você pode estudar mais e tentar novamente, esperarei ansioso por você!', 'caramba! Deve ter acontecido algo. Apostei todas minhas fichas em você!', 'Me desculpa! Deveria ter feito perguntas mais fáceis! ', 'Calma! se é possível você conversar com uma maquina com sua voz mental, então é possível melhorar o rendimento!', 'Não desista! Tente novamente, irá se sair melhor na próxima!', 'A culpa não foi sua! A culpa é de quem selecionou as questões. Ele é doido!', 'Uau! esperaria mais de você. Se fizer lhe sentir melhor, eu posso hackear o meu desinvolvedor! (espero que ele não veja isso)']
     retorno = random.choice(baixo)
-    retorno = nome + retorno
     print(retorno)
 
-def rendimentoMedio(nome):
-    medio = [', nossa! Você não foi ruim! Mas, poderia ter sido melhor!', ', nossa! Apostei minhas fichas que você iria se sair melhor!', ', estou muito feliz com o resultado! Olha as questões, poderia ter sido pior!', ', o cara que me fez não tem juízo. Ele colocou questões que nem ele sabe! (Não conta pra ele por favor!)', ', caramba! Poderia ter sido melhor! Culpe o meu desinvolvedor, ele é doido!', ', calma! se é possível você conversar com uma maquina com sua voz mental, então é possível melhorar o rendimento!', ', uau! esperaria mais de você. Se fizer lhe sentir melhor, eu posso hackear o meu desinvolvedor! (espero que ele não veja isso)']
+def rendimentoMedio():
+    medio = ['Nossa! Você não foi ruim! Mas, poderia ter sido melhor!', 'Nossa! Apostei minhas fichas que você iria se sair melhor!', 'Estou muito feliz com o resultado! Olha as questões, poderia ter sido pior!', 'O cara que me fez não tem juízo. Ele colocou questões que nem ele sabe! (Não conta pra ele por favor!)', 'Caramba! Poderia ter sido melhor! Culpe o meu desinvolvedor, ele é doido!', 'Calma! se é possível você conversar com uma maquina com sua voz mental, então é possível melhorar o rendimento!', 'Uau! esperaria mais de você. Se fizer lhe sentir melhor, eu posso hackear o meu desinvolvedor! (espero que ele não veja isso)']
     retorno = random.choice(medio)
-    retorno = nome + retorno
     print(retorno)
 
-def rendimentobom(nome):
-    bom = [', nossa, pra alguém que conversa com uma máquina com a voz mental, você foi extraordinariamente bem!',', uau! Você se saiu muito bem! Parabéns!', ', que show! Estou pulando de algria!', ', nossa, muito bacana! Confesso que não daria nada por você. Me enganei, você é show!', ', Nossa, mano! Ta sem nerdisse, Ein?! Parabéns!', ', uau! Mandou o cara que selecionou as questões ir pastar!', ', muito obrigado! Me fez ganhar uma aposta. Dei todas minhas fichas em você.', ', uau! Apostei em você e apostei certo!']
+def rendimentobom():
+    bom = ['Nossa, pra alguém que conversa com uma máquina com a voz mental, você foi extraordinariamente bem!','Uau! Você se saiu muito bem! Parabéns!', 'Que show! Estou pulando de algria!', 'Nossa, muito bacana! Confesso que não daria nada por você. Me enganei, você é show!', 'Nossa, mano! Ta sem nerdisse, Ein?! Parabéns!', 'Uau! Mandou o cara que selecionou as questões ir pastar!', 'Muito obrigado! Me fez ganhar uma aposta. Dei todas minhas fichas em você.', 'Uau! Apostei em você e apostei certo!']
     retorno = random.choice(bom)
-    retorno = nome + retorno
     print(retorno)
 
 def rendimentoExcelente():
-    exclente = [', caramba! Estou com medo! Você é realmente terestre?',' nossa, pra alguém que conversa com uma máquina com a voz mental, você foi extraordinariamente bem!',' mal vejo a hora de avisar ao meu desinvolvedor que ele não é de nada. Ele não chega ao seus pés!',' NOSSA!!!!! Podem chamar o presidente, você merece uma medalha!',' eu sabia! Essa cara não nega! Gênio, parabéns!',' com esse nivel de questões, você ainda se saiu bem. Tiro meu chapéu pra você!',' você é de fato, um gênio! Sabia desde o inicio!',' quem diria, ein?! Nem o meu pensamento mais otimista lhe daria esse resultado!',' nossa, que incrível! Meu medidor de nerdisse disparou!', ', uau! Mano do céu. Podem ligar pra NASA, acabamos de encontrar um gênio!']
+    exclente = ['Caramba! Estou com medo! Você é realmente terestre?','Nossa, pra alguém que conversa com uma máquina com a voz mental, você foi extraordinariamente bem!','Mal vejo a hora de avisar ao meu desinvolvedor que ele não é de nada. Ele não chega ao seus pés!','NOSSA!!!!! Podem chamar o presidente, você merece uma medalha!','Eu sabia! Essa cara não nega! Gênio, parabéns!','Com esse nivel de questões, você ainda se saiu bem. Tiro meu chapéu pra você!','Você é de fato, um gênio! Sabia desde o inicio!','Quem diria, ein?! Nem o meu pensamento mais otimista lhe daria esse resultado!','Nossa, que incrível! Meu medidor de nerdisse disparou!', ',Uau! Mano do céu. Podem ligar pra NASA, acabamos de encontrar um gênio!']
     retorno = random.choice(exclente)
-    retorno = nome + retorno
     print(retorno)
 
 def frasesDeAcertos():
@@ -106,7 +102,7 @@ def erroDeLogin():
     print(retorno)
 
 def saindoDoSistema():
-    frases = ['Foi ótimo conversar com você, até a próxima!', 'Que pena que acabou. Agora vou descansarum pouco.', 'Aah, já vai? Pena! Agora vou ali escanear o meu sistema!', 'Enfim, foi ótimo. Até mais, lembre que eu estou aqui!', 'Até a próxima execução.', 'Já vai? Que pena! Eu ia dar uma volta mas lembrei que sou apenas um sistema que sortea frases aleatoriamente! Que vida!']
+    frases = ['Foi ótimo conversar com você, até a próxima!', 'Que pena que acabou. Agora vou descansar um pouco.', 'Aah, já vai? Pena! Agora vou ali escanear o meu sistema!', 'Enfim, foi ótimo. Até mais, lembre que eu estou aqui!', 'Até a próxima execução.', 'Já vai? Que pena! Eu ia dar uma volta mas lembrei que sou apenas um sistema que sortea frases aleatoriamente! Que vida!']
     retorno = random.choice(frases)
     print(retorno)
 

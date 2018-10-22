@@ -398,7 +398,11 @@ def menuAdmin():
                 elif(opcao == 3):
                     time.sleep(1)
                     menu()
+                else:
+                    time.sleep(1)
+                    TOM.saindoDoSistema()
             else:
                 time.sleep(1)
+                
                 menuAdmin()
             
