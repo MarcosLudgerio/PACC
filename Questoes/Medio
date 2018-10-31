@@ -3,6 +3,7 @@ A) Marcas de Memória RAM;
 B) Cheats do GTA;
 C) Modelos Padrão de Teclado;
 D) Senhas Padrão do Linux;
+E) Letras sorteados usando o random
 C
 
 (RachaCuca) Que nome pode ser dado aos servidores?
@@ -13,7 +14,9 @@ D) World-Centers
 E) Data-Centers
 E
 
-(RachaCuca) Quanto às memórias, podemos afirmar que existe uma memória somente de leitura onde seus dados não são perdidos quando desligada. Estamos falando da memória:
+(RachaCuca) Quanto às memórias, podemos afirmar que existe
+uma memória somente de leitura onde seus dados não são perdidos
+quando desligada. Estamos falando da memória:
 A) DDR
 B) DDR2
 C) ROM
@@ -34,8 +37,8 @@ A) Peer-to-Peer
 B) PHP
 C) Powerpoint
 D) Conexão sem fio
+E) Torpedo
 A
-
 
 (RachaCuca) O que significa HTTP:
 A) Hyper Text Transfer Protocol
@@ -45,21 +48,27 @@ D) Hyper Text Type Protocolo
 E) Hiper Type Text Protocol
 A
 
-(RachaCuca) Pela fórmula 2 elevado na N é possível descobrir quantos números pode se ter em binário pelo número de digitos(Bits). Com 8 Bits, até que número posso contar em binário?
+(RachaCuca) Pela fórmula 2 elevado na N é possível descobrir quantos
+números pode se ter em binário pelo número de digitos(Bits).
+Com 8 Bits, até que número posso contar em binário?
 A) 256
 B) 512
 C) 1023
 D) 255
+E) 144
 D
 
-(QConcursos) No sistema operacional MS Windows 7 em português, a pasta que contém toda estrutura do sistema operacional é a pasta
+(QConcursos) No sistema operacional MS Windows 7 em português, a pasta que contém
+toda estrutura do sistema operacional é a pasta
 A) /Acessórios 
 B) /Documentos
 C) /Usuários
 D) /Windows
+E) /home
 D
 
-(QConcursos) O software que permite realizar comunicação grátis pela internet por voz, mensagens instantâneas e vídeo) é o
+(QConcursos) O software que permite realizar comunicação grátis pela internet
+por voz, mensagens instantâneas e vídeo é o
 A) ADSL
 B) SKYPE
 C) TELNET
@@ -67,7 +76,8 @@ D) ISP
 E) INSS
 B
 
-(NovaConcursos) Na fonte do gabinete, os cabos de energia são diferenciados pela cor onde o fio neutro apresenta a cor:
+(NovaConcursos) Na fonte do gabinete, os cabos de
+energia são diferenciados pela cor onde o fio neutro apresenta a cor:
 A) Branco
 B) Preto
 C) Amarelo
@@ -75,7 +85,10 @@ D) Azul
 E) Vermelho
 B
 
-(QConcursos) O tipo de monitor utilizado nos notebooks e que se caracteriza pela aplicação de transistores em cada pixel, permitindo que cada um receba tensões diferentes e utilize altas resoluções, é o
+(QConcursos) O tipo de monitor utilizado nos notebooks
+e que se caracteriza pela aplicação de transistores
+em cada pixel, permitindo que cada um receba tensões
+diferentes e utilize altas resoluções, é o
 A) TFT
 B) CRT
 C) WMA
@@ -83,7 +96,8 @@ D) THD
 E) PQP
 B
 
-(QConcursos) Assinale a alternativa correta relativa ao Windows Defender presente no Sistema Operacional Windows 10.
+(QConcursos) Assinale a alternativa correta relativa ao Windows Defender
+presente no Sistema Operacional Windows 10.
 A) O Windows Defender somente verifica a presença de malwares quando a proteção em tempo real está ativada.
 B) O Windows Defender é um aplicativo para definição das regras de firewall de conexões de rede.
 C) As definições de spyware aplicadas ao Windows Defender são atualizadas apenas de forma manual.
@@ -96,13 +110,16 @@ A) SMTP e POP.
 B) SNMP e POP.
 C) POP e SMTP.
 D) POP e SNMP.
+E) SMQP e PQP
 A
 
-(RachaCuca) João precisa conectar à rede de Pedro pela porta 230, porém o Firewall está barrando João. Como Pedro pode arrumar isso?"
+(RachaCuca) João precisa conectar à rede de Pedro pela porta 230
+porém o Firewall está barrando João. Como Pedro pode arrumar isso?"
 A) Desativar o firewall
 B) Abrir a porta 230
 C) Adicionar uma regra de entrada para a porta 230
 D) Abrir a porta 230 e criar uma regra de entrada
+E) Impossível
 A
 
 (RachaCuca) Qual desses tipos de conexões cobrem cidades?
@@ -110,6 +127,7 @@ A) MAN
 B) WAN
 C) LAN
 D) PAN
+E) CAN
 A
 
 (RachaCuca) O que é a distancia administrativa?
@@ -120,7 +138,8 @@ D) É o custo de cada salto do protocolo de roteamento.
 E) É p custo de cada roteamento do salto no protocolo TCP
 C
 
-(RachaCuca) Na arquitetura de von Neumann, a unidade básica de transferência da memória ou para a memória denomina-se:
+(RachaCuca) Na arquitetura de von Neumann, a unidade básica de transferência
+da memória ou para a memória denomina-se:
 A) byte.
 B) endereço.
 C) instrução.
@@ -128,11 +147,14 @@ D) palavra.
 E) dado.
 D
 
-(RachaCuca) O surto de ataques hackers liderados pelo grupo LulzSec, que ocorreu inclusive no Brasil, derrubando sites do governo, foi baseado em que tipo de ataque?
+(RachaCuca) O surto de ataques hackers liderados pelo grupo LulzSec,
+que ocorreu inclusive no Brasil, derrubando sites do governo,
+foi baseado em que tipo de ataque?
 A) Brute Force - Força Bruta;
 B) DDoS - Negação de serviço;
 C) Trojan - Cavalo de Tróia;
 D) Port Scanning - Escaneamento de Portas;
+E) Port Scanning - Escaneamento de janelas;
 B
 
 (RachaCuca) O que significa SMTP?
@@ -150,4 +172,3 @@ C) DDR3, EPROM, SRAM e Flash.
 D) ROM, EEPROM, Flash e PROM.
 E) EDO, FPM, Flash e EPROM.
 D
-

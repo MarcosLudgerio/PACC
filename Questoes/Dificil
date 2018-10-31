@@ -37,8 +37,10 @@ D) Apaga toda a memória salva no roteador.
 E) O comando da erro e não acontece nada.
 C
 
-
-(ISS/Teresina 2016) Os notebooks ultrafinos (ultrabooks) utilizam drives do tipo SSD (Solid-State Drive) ao invés de HDs por serem normalmente mais silenciosos, menores, mais resistentes e de acesso mais rápido. Assim como os pen drives, os dispositivos SSD utilizam
+(ISS/Teresina 2016) Os notebooks ultrafinos (ultrabooks)
+utilizam drives do tipo SSD (Solid-State Drive) ao invés de HDs por
+serem normalmente mais silenciosos, menores, mais resistentes e de acesso mais rápido.
+Assim como os pen drives, os dispositivos SSD utilizam
 A) memória flash para armazenar dados. Esse tipo de memória não perde seu conteúdo quando a alimentação elétrica é cortada.
 B) memória flash para armazenar dados. Esse tipo de memória perde seu conteúdo quando a alimentação elétrica é cortada.
 C) registradores para armazenar informações. Os registradores são tipos de memória de acesso muito rápido, porém muito caros.
@@ -55,7 +57,9 @@ D) do Processador.
 E) do monitor de vídeo. 
 B
 
-(TRT/15ª Região 2015) Os discos rígidos padrão SATA-III, portanto de 3a geração, operam com uma taxa de transferência externa máxima teórica (taxa da interface), em Mbps, de
+(TRT/15ª Região 2015) Os discos rígidos padrão SATA-III,
+portanto de 3a geração, operam com uma taxa de transferência
+externa máxima teórica (taxa da interface), em Mbps, de:
 A) 600.
 B) 300.
 C) 820.
@@ -63,7 +67,10 @@ D) 1.200.
 E) 150.
 A
 
-(TRT/4ª Região 2015) Os chipsets das placas-mãe de Computadores Pessoais (PCs) realizam a interface com o chip do processador por meio das interfaces Northbridge e Southbridge. A interface Northbridge é utilizada para a comunicação do processador com
+(TRT/4ª Região 2015) Os chipsets das placas-mãe de
+Computadores Pessoais (PCs) realizam a interface com o
+chip do processador por meio das interfaces Northbridge e Southbridge.
+A interface Northbridge é utilizada para a comunicação do processador com:
 A) a Placa de Rede.
 B) a Memória Principal.
 C) o Teclado.
@@ -71,7 +78,10 @@ D) o Disco Rígido.
 E) a Memória Secundária. 
 B
 
-(TRT/4ª Região 2015) Os processadores atualmente utilizados em Computadores Pessoais (PCs)realizam a execução das instruções em um ciclo de máquina. O recurso tecnológico embutido nesses processadores, para possibilitar isso, é denominado
+(TRT/4ª Região 2015) Os processadores atualmente utilizados
+em Computadores Pessoais (PCs)realizam a execução das instruções
+em um ciclo de máquina. O recurso tecnológico embutido nesses processadores
+para possibilitar isso, é denominado
 A) Hypertrade.
 B) RISC.
 C) Swapping.
@@ -79,7 +89,9 @@ D) CISC.
 E) Pipeline. 
 E
 
-(TRE/SE 2015) Ao se adquirir um computador é importante selecionar componentes adequados para o perfil de utilização. Em um computador, o componente
+(TRE/SE 2015) Ao se adquirir um computador é importante
+selecionar componentes adequados para o perfil de utilização.
+Em um computador, o componente
 A) “DDR3 de 2133 MHz” refere-se à memória RAM.
 B) “SATA 3 de 7200 RPM” refere-se ao processador.
 C) “ASUS A58M-A/BR” refere-se ao HD (disco rígido).
@@ -119,7 +131,9 @@ D) na memória RAM.
 E) no disco rígido decorrentes de atividades dos programas queestavam em execução. 
 D
 
-(TRE/SP 2012) Para que o computador de uma residência possa se conectar à Internet, utilizando a rede telefônica fixa, é indispensável o uso de um hardware chamado
+(TRE/SP 2012) Para que o computador de uma residência possa
+se conectar à Internet, utilizando a rede telefônica fixa,
+é indispensável o uso de um hardware chamado
 A) hub.
 B) modem.
 C) acess point.
@@ -127,7 +141,8 @@ D) adaptador 3G.
 E) switch. 
 D
 
-(RachaCuca) Qual o resumo de rota para este cenário (192.168.1.0): - São Paulo 1. Cambuci 2000 2. Lapa 1200 3. Vila Mariana 600 4. Santa Cecília 100 5. CPD 50
+(RachaCuca) Qual o resumo de rota para este cenário (192.168.1.0):
+- São Paulo 1. Cambuci 2000 2. Lapa 1200 3. Vila Mariana 600 4. Santa Cecília 100 5. CPD 50
 A) 192.168.1.0 255.255.192.0
 B) 192.168.1.0 255.255.248.0
 C) 192.168.1.0 255.255.240.0
@@ -135,7 +150,11 @@ D) 192.168.1.0 255.255.224.0
 E) 192.168.1.0 255.255.254.0
 C
 
-(Prefeitura de São Paulo 2012) Dispositivos de entrada e saída possibilitam introduzir dados externos ao computador para processamento e apresentar dados processados pelo computador. Alguns dispositivos efetuam ambos papéis, servindo de dispositivo de entrada e saída. Um exemplo destes dispositivos é
+(Prefeitura de São Paulo 2012) Dispositivos de entrada
+e saída possibilitam introduzir dados externos ao computador
+para processamento e apresentar dados processados pelo computador.
+Alguns dispositivos efetuam ambos papéis, servindo de dispositivo de entrada e saída.
+Um exemplo destes dispositivos é:
 A) a tela sensível ao toque.
 B) o leitor de código de barras.
 C) o mouse ótico.
@@ -143,14 +162,21 @@ D) o scanner.
 E) a webcam.
 A
 
-(Prefeitura de São Paulo 2012) Os dispositivos ou mídias de armazenamento são capazes de armazenar informações para posterior uso e processamento eletrônico. Dentre as mídias, dispositivos e tecnologias utilizadas para o armazenamento de informações NÃO se inclui o
+(Prefeitura de São Paulo 2012) Os dispositivos ou mídias
+de armazenamento são capazes de armazenar informações para
+posterior uso e processamento eletrônico. Dentre as mídias,
+dispositivos e tecnologias utilizadas para o armazenamento
+de informações NÃO se inclui o
 A) pendrive.
 B) código de barras.
 C) barramento de memória.
 D) RFID.
 E) código QR. 
 
-(TCE/SP 2012) O armazenamento de informações em computadores é feito pela utilização de dispositivos chamados de memória, que as mantêm de forma volátil ou permanente. Entre esses dispositivos, está a memória RAM ou memória
+(TCE/SP 2012) O armazenamento de informações em computadores é
+feito pela utilização de dispositivos chamados de memória,
+que as mantêm de forma volátil ou permanente.
+Entre esses dispositivos, está a memória RAM ou memória
 A) magnética.
 B) secundária.
 C) cache.
@@ -158,3 +184,10 @@ D) principal.
 E) de armazenamento em massa. 
 D
 
+Quantos anos tinha hitle quando foi morto
+A) 13
+B) 14
+C) 15
+D) 16
+E) 17
+E
