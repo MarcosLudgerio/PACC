@@ -71,7 +71,7 @@ def alteraOrdem(arquivoCompleto):
         random.shuffle(arquivoCompleto)
        
         #Depois de alterar a ordem o arquivo será gravado de novo com essa ordem nova
-        arquivoRetorno = open("Questoes/Facil", "w")
+        arquivoRetorno = open("Questoes/Facil.txt", "w")
         for i in range(len(arquivoCompleto)):
             for j in range(len(arquivoCompleto[i])):
                 arquivoRetorno.write(arquivoCompleto[i][j])
@@ -129,7 +129,7 @@ def repostaCorreta(certa, errada):
 
 #Função que exibe as questões
 def exibirQuestões(nivel, nome):  
-    #Váriavel que recebem o arquivo em forma de listas
+    #Váriavel que recebe o arquivo em forma de listas
     arquivoCompleto = []
 
     #Contador de respostas certas
@@ -139,7 +139,7 @@ def exibirQuestões(nivel, nome):
     contErradas = 0
 
     #Abrindo o arquivo
-    arquivo2 = open(nivel, "r")
+    arquivo2 = open(nivel, "r", encoding="utf8")
 
     #Lendo ele como lista e salvando numa várivel 
     lista = arquivo2.readlines()
@@ -159,7 +159,7 @@ def exibirQuestões(nivel, nome):
     #Agora separando as questões
 
     #Abrindo o arquivo
-    arquivo2 = open(nivel, "r")
+    arquivo2 = open(nivel, "r", encoding="utf8")
 
     #Váriavel de controle
     i = 0
@@ -392,7 +392,7 @@ def confereNivel(nivel):
 def consultaQuestao(nivelArquivo):
     #Selecionando qual arquivo deve ser aberto
     if(nivelArquivo == 1):
-        nivel = "Questoes/Facil"
+        nivel = "Questoes/Facil.txt"
     elif(nivelArquivo == 2):
         nivel = "Questoes/Medio"
     else:
@@ -473,7 +473,7 @@ def menuAdmin():
                         nivelConferido = confereNivel(nivel)
                         #Se for no nivel fácil
                         if(nivelConferido == 1):
-                            nivel = "Facil"
+                            nivel = "Facil.txt"
                             #Chama a função passando como parametro o nivel facil
                             adicionarQuestão(nivel)
                             #Pergunta se deseja-se cadastrar uma nova questão

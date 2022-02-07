@@ -92,7 +92,7 @@ while True:
                     time.sleep(1.5)
                     TOM.nivelFacil()
                     time.sleep(1.5)
-                    nivel = "Facil"
+                    nivel = "Facil.txt"
                 elif (opcao == '2'):
                     print("")
                     time.sleep(1.5)
