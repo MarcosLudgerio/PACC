@@ -14,7 +14,6 @@ def cabecalho():
     time.sleep(0.2)
 
 def cabecalhoDificuldade(nome):
-    #A partir daqui começa o script que exibe o cabeçaho com as opções de níveis
     TOM.selecionarNivel(nome)
     time.sleep(1)
     for i in range(limite):
