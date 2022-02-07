@@ -1,13 +1,12 @@
 # :books:  PACC - Programa Avaliativo  de Conhecimento em Computação
 <div align="center" display="flex" style="justify-content:flex-start;">
-      <img align="center" alt="js" height="60" width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg" />
+      <img align="center" alt="js" height="100" width="100" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
 </div>
 
 <p align="center">
  <a href="#desc">Descrição</a> •
- <a href="#about">Objetivo</a> •
+ <a href="#about">TOM</a> •
  <a href="#tecnologias">Tecnologias</a> • 
- <a href="#prerequisitos">Pré-requisitos</a> • 
  <a href="#executando">Executar o projeto</a> • 
  <a href="#autor">Autor</a>
 </p>
@@ -15,87 +14,35 @@
 <div id="desc"/>
 
 ## 📝 Descrição
-Este projeto é uma API Restful desenvolvida utilizando o framework Spring Boot, na linguagem de programação java. <br>
-O intuito de sua produção é para que fique disponível para que sejam efetuados testes de API Restful. <br>
-O link de acesso ao Heroku pode ser acessado [aqui](https://api-course-test-automatized.herokuapp.com) <br>
-A documentação SWAGGER da aplicação está disponível nesse [link](https://api-course-test-automatized.herokuapp.com/swagger-ui.html)
-
+O Programa Avaliativo de Conhecimento em Computação - PACC, é um
+sistema básico, com uma lógica simples e desenvolvido apenas para tornar possível a
+participação no processo seletivo, para a vaga de desenvolvedor da empresa júnior
+Eagle. <br>
+Isso significa que ele não é recomendável para outras finalidades, porém
+existem algumas alterações que podem ser feitas de modo a tornar o mesmo um
+sistema muito eficiente para avaliar conhecimento.
 <div id="about"/>
 
-## ⚙️ O que a API faz?
-A API Restful da suporte a aplicações de postagens. <br>
-Consiste em dois módulos: usuário e publicações (posts), onde um usuário cria pode criar uma ou várias publicações <br>
-Para cadastrar um usuário é necessário ter: nome, email e senha como campos obrigatórios e, caso deseje, biografia, site e imagem de perfil (url)<br>
-Para cadastrar uma publicação é necessário ter: titulo e texto <br>
-
-<div id="exemplos"/>
-
-## 📑 Exemplos
-##### JSON para criação de usuário: <br>
-![User](user_create.png)
-
-##### JSON para criação de post: <br>
-![Post](post_create.png)
-
-<div id="rotas" />
-
-## :busstop: Rotas
-#### Login
-- [ ] POST /auth/login
-#### Usuário
-- [ ] POST /api/users
-- [ ] GET /api/users
-- [ ] GET /api/users/details
-- [ ] PUT /api/users
-#### Publicações
-- [ ] GET /api/posts
-- [ ] GET /api/posts/id
-- [ ] POST /api/posts
-- [ ] PUT /api/posts/id
-- [ ] DELETE /api/posts/id
-
+## :robot: TOM
+O TOM é um bot que guia toda a execução do sistema e orienta todos os passos
+que o jogador precisa fazer. Ele orienta e informa alguns feedbacks ao jogador 
+para que seja possível a compreensão dos resultados.
 
 <div id="tecnologias"/>
 
 ## ✨ Tecnologias
 
--   [ ] [Java](https://www.java.com/pt-BR/)
--   [ ] [Spring Boot](https://spring.io/)
--   [ ] [Thymeleaf](https://www.thymeleaf.org/)
--   [ ] [PostgreSQL](https://www.postgresql.org/)
--   [ ] [Project Lombok](https://projectlombok.org/)
--   [ ] [Spring Data JPA](https://spring.io/projects/spring-data-jpa)
--   [ ] [Swagger](https://swagger.io/)
--   [ ] [Json Web Token](https://jwt.io/)
--   [ ] [Hibernate](https://hibernate.org/)
--   [ ] [Model Mapper](http://modelmapper.org/)
+-   [ ] [Python 3.7](https://www.python.org/)
 
-<div id="prerequisitos"/>
-
-## 📑 Pré requisitos
-
-Para executar o projeto localmente, é necessário ter:
-1. PostgreSQL instalado
-2. Banco criado
-3. Java 11
-4. Arquivo `application.properties` alterado com credenciais corretas
-   1. `spring.datasource.url=` nome do banco criado
-   2. `spring.datasource.username=` usuário do administrador do banco de dados
-   3. `spring.datasource.password=` senha do administrador
-  
 <div id="executando" />
 
 ## ▶️ Executando o projeto
 
-Para acessar a API Restful remotamente, basta clicar [aqui](https://api-course-test-automatized.herokuapp.com) <br>
-> NOTE: Normalmente, a aplicação demora uns minutos para inciar
-
 Para executar localmente, siga os passos:
 ```sh
-$ git clone https://github.com/MarcosLudgerio/api-automation-test.git
-$ cd api-automation-test
-$ ./mvnw install
-$ ./mvnw spring-boot:run
+$ git clone git@github.com:MarcosLudgerio/PACC.git
+$ cd PACC
+$ py Principal\main.py
 ```
 
 <div id="autor" />
